@@ -1,0 +1,7 @@
+site_name: GitHub vs GitLabs
+theme:
+  name: material
+nav:
+    - github.md
+    - gitlabs.md
+    - jenkins-ci.md
