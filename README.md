@@ -1,3 +1,3 @@
 # GitLabs vs GitHub comparativa
 
-[DOC](./docs)
+[DOC](https://jdbcplusnet.github.io/comparativa)
