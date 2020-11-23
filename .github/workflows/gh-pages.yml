@@ -44,7 +44,6 @@ jobs:
       
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: $
-          publish_dir: ./public
+        run: | 
+          git pull mkdocs gh-deploy
       
