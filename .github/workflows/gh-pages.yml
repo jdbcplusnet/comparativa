@@ -45,5 +45,5 @@ jobs:
       
       - name: Deploy
         run: | 
-          git pull mkdocs gh-deploy
+          python3 mkdocs gh-deploy
       
