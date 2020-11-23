@@ -1,8 +1,8 @@
 site_name: GitHub vs GitLabs
 site_dir: public
 theme:
-  #name: material
-  name: readthedocs
+  name: material
+  #name: readthedocs
 nav:
     - index.md
     - github.md
