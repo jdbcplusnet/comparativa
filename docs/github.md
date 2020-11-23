@@ -39,17 +39,21 @@
 * [Aprendizaje continuo](https://lab.github.com) - Permite crear cursos.
 
 
-## GitHub Actions
+## Acciones de GitHub (GitHub Actions)
 
-[GitHub Actions Introduction](https://docs.github.com/en/free-pro-team@latest/actions/learn-github-actions/introduction-to-github-actions)
+[Introducción a GitHub Actions](https://docs.github.com/en/free-pro-team@latest/actions/learn-github-actions/introduction-to-github-actions)
 
-GitHub Actions are a CI/CD tool that is tied directly into GitHub’s ecosystem.
+GitHub Actions es la herramienta CI/CD interna de GitHub. Nos permite establecer un flujo de trabajo (workflow) que puede ser disparado mediante diferentes eventos que ocurren en el repositorio, como merge o push a una determinada rama.
 
-This allows you to set up workflows that can be triggered through many different events that might take place in your repository, such as a merge or push to a specific branch.
 
-### The Action
+### Definición de Acciones
 
-All GitHub Actions are defined using YAML.
+Todas las acciones de GitHub se definen usando el formato YAML.
 
-Lets create a *.github* directory in the outermost directory of your repository, followed by a *workflows* directory within the *.github* one. 
-Then create a *main.yml* file, which is where the action will be defined.
+Creamos un directorio *.github* en el directorio raíz del repositorio, seguido del directorio *workflows* dentro de *.github*.
+Después creamos un fichero *main.yml*, que es donde la acción es definida.
+
+
+### Rama gh-pages
+
+Desde la configuración del repositorio en GitHub (Settings) debemos indicar que la documentación del proyecto estará disponible en la rama gh-pages del repositorio.
