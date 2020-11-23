@@ -3,6 +3,7 @@ site_dir: public
 theme:
   name: material
 nav:
+    - index.md
     - github.md
     - gitlabs.md
     - readthedocs.md
