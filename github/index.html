@@ -66,9 +66,11 @@
     </li>
         </ul>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#github-actions">GitHub Actions</a>
+    <li class="toctree-l2"><a class="reference internal" href="#acciones-de-github-github-actions">Acciones de GitHub (GitHub Actions)</a>
         <ul>
-    <li class="toctree-l3"><a class="reference internal" href="#the-action">The Action</a>
+    <li class="toctree-l3"><a class="reference internal" href="#definicion-de-acciones">Definición de Acciones</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#rama-gh-pages">Rama gh-pages</a>
     </li>
         </ul>
     </li>
@@ -157,14 +159,15 @@
 <li><a href="https://github.com/premium-support">Soporte 24/7</a></li>
 <li><a href="https://lab.github.com">Aprendizaje continuo</a> - Permite crear cursos.</li>
 </ul>
-<h2 id="github-actions">GitHub Actions</h2>
-<p><a href="https://docs.github.com/en/free-pro-team@latest/actions/learn-github-actions/introduction-to-github-actions">GitHub Actions Introduction</a></p>
-<p>GitHub Actions are a CI/CD tool that is tied directly into GitHub’s ecosystem.</p>
-<p>This allows you to set up workflows that can be triggered through many different events that might take place in your repository, such as a merge or push to a specific branch.</p>
-<h3 id="the-action">The Action</h3>
-<p>All GitHub Actions are defined using YAML.</p>
-<p>Lets create a <em>.github</em> directory in the outermost directory of your repository, followed by a <em>workflows</em> directory within the <em>.github</em> one. 
-Then create a <em>main.yml</em> file, which is where the action will be defined.</p>
+<h2 id="acciones-de-github-github-actions">Acciones de GitHub (GitHub Actions)</h2>
+<p><a href="https://docs.github.com/en/free-pro-team@latest/actions/learn-github-actions/introduction-to-github-actions">Introducción a GitHub Actions</a></p>
+<p>GitHub Actions es la herramienta CI/CD interna de GitHub. Nos permite establecer un flujo de trabajo (workflow) que puede ser disparado mediante diferentes eventos que ocurren en el repositorio, como merge o push a una determinada rama.</p>
+<h3 id="definicion-de-acciones">Definición de Acciones</h3>
+<p>Todas las acciones de GitHub se definen usando el formato YAML.</p>
+<p>Creamos un directorio <em>.github</em> en el directorio raíz del repositorio, seguido del directorio <em>workflows</em> dentro de <em>.github</em>.
+Después creamos un fichero <em>main.yml</em>, que es donde la acción es definida.</p>
+<h3 id="rama-gh-pages">Rama gh-pages</h3>
+<p>Desde la configuración del repositorio en GitHub (Settings) debemos indicar que la documentación del proyecto estará disponible en la rama gh-pages del repositorio.</p>
               
             </div>
           </div>
